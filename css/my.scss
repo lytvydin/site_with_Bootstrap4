@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:400,700');
+
+*{
+	box-sizing: border-box;
+}
+
+*{
+	transition:all .3s ;
+}
+
+$main-font-family: 'Lato', sans-serif;
+$main-font-size: 18px;
+$h1-font-size: 50px;
+$h5-font-size: 30px;
+$p-font-size: 20px;
+
+
+.wrapper{
+	max-width: 1280px;
+	min-width: 320px;
+	padding: 10px;
+	margin: 0 auto;
+	font-size: $main-font-size;
+	font-style: strong;
+	}
+
+.loading-page, .register-page, .entrance-page, 
+.remind-password-page, .information-page, .contact-page{
+	margin-top: 5px;
+	padding-top: 20px;
+}
+
+.loading-page, .register-page, .entrance-page, 
+.remind-password-page, .contact-page, .main-page{
+	height: 980px;
+	h5{
+		font-size: $h5-font-size;
+	}
+}
+/*--main-page--*/
+.main-page{
+	padding-top: 10px;
+	background: url(img/lens-1209823_1920.jpg) center top no-repeat;
+
+	.main-page-text{
+		margin-top: 100px;
+	}
+	button{
+		margin: 0 auto;
+	}
+	h1, p{
+		color: #FFFAFA;
+		font-style: $main-font-family;
+	}
+	h1{
+		font-size: $h1-font-size;
+	}
+	p{
+		font-size: $p-font-size;
+	}	
+}
+/*--end main-page--*/
+/*--loading-page--*/
+.loading-page{
+	background: url(img/fog-3622519_1920.jpg) center top no-repeat;
+	.fas{
+		font-size: 100px;
+	}
+	a{
+		color: green;
+	}
+}
+/* end loading-page */
+/* register-page*/
+.register-page{
+	background: url(img/road-166543_1920.jpg) center top no-repeat;
+}
+/* end register-page*/
+/* entrance-page*/
+.entrance-page{
+	background: url(img/woodland-656969_1920.jpg) center top no-repeat;
+}
+/* end entrance-page */
+/*remind-password-page*/
+.remind-password-page{
+	background: url(img/paper-1074131_1920.jpg) center top no-repeat;
+}
+/*end remind-password-page*/
+/*information-page*/
+.information-page{
+	background: url(img/paper-1074131_1920.jpg) center top no-repeat;
+	height: 960px;
+	.content-body {
+	  word-wrap: break-word;
+	}
+	@media screen and (max-width: 320px){
+		height: auto;
+		.container-text{
+			margin-top: 2px !important;
+		}
+			h5{
+				font-size: 16px;
+			}
+			p{
+				font-size: 12px;
+			}
+		} 
+	@media screen and (max-width: 480px){
+		height: auto;
+		.container-text{
+			margin-top: 2px !important;
+		}
+			h5{
+				font-size: 18px;
+			}
+			p{
+				font-size: 14px;
+			}
+		} 
+	@media screen and (max-width: 768px){
+		height: auto;
+		.container-text{
+			margin-top: 2px !important;
+		}
+			h5{
+				font-size: 18px;
+			}
+			p{
+				font-size: 14px;
+			}
+		} 			
+}
+/*end information-page*/
+/*contact-page*/
+.contact-page{
+	background: url(img/paper-1074131_1920.jpg) center top no-repeat;
+	.form-control{
+		 max-height:500px;
+	}
+}
+/*end contact-page*/
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:400,700");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
+
+.wrapper {
+  max-width: 1280px;
+  min-width: 320px;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-style: strong; }
+
+.loading-page, .register-page, .entrance-page,
+.remind-password-page, .information-page, .contact-page {
+  margin-top: 5px;
+  padding-top: 20px; }
+
+.loading-page, .register-page, .entrance-page,
+.remind-password-page, .contact-page, .main-page {
+  height: 980px; }
+  .loading-page h5, .register-page h5, .entrance-page h5,
+  .remind-password-page h5, .contact-page h5, .main-page h5 {
+    font-size: 30px; }
+
+/*--main-page--*/
+.main-page {
+  padding-top: 10px;
+  background: url(img/lens-1209823_1920.jpg) center top no-repeat; }
+  .main-page .main-page-text {
+    margin-top: 100px; }
+  .main-page button {
+    margin: 0 auto; }
+  .main-page h1, .main-page p {
+    color: #FFFAFA;
+    font-style: "Lato", sans-serif; }
+  .main-page h1 {
+    font-size: 50px; }
+  .main-page p {
+    font-size: 20px; }
+
+/*--end main-page--*/
+/*--loading-page--*/
+.loading-page {
+  background: url(img/fog-3622519_1920.jpg) center top no-repeat; }
+  .loading-page .fas {
+    font-size: 100px; }
+  .loading-page a {
+    color: green; }
+
+/* end loading-page */
+/* register-page*/
+.register-page {
+  background: url(img/road-166543_1920.jpg) center top no-repeat; }
+
+/* end register-page*/
+/* entrance-page*/
+.entrance-page {
+  background: url(img/woodland-656969_1920.jpg) center top no-repeat; }
+
+/* end entrance-page */
+/*remind-password-page*/
+.remind-password-page {
+  background: url(img/paper-1074131_1920.jpg) center top no-repeat; }
+
+/*end remind-password-page*/
+/*information-page*/
+.information-page {
+  background: url(img/paper-1074131_1920.jpg) center top no-repeat;
+  height: 960px; }
+  .information-page .content-body {
+    word-wrap: break-word; }
+  @media screen and (max-width: 320px) {
+    .information-page {
+      height: auto; }
+      .information-page .container-text {
+        margin-top: 2px !important; }
+      .information-page h5 {
+        font-size: 16px; }
+      .information-page p {
+        font-size: 12px; } }
+  @media screen and (max-width: 480px) {
+    .information-page {
+      height: auto; }
+      .information-page .container-text {
+        margin-top: 2px !important; }
+      .information-page h5 {
+        font-size: 18px; }
+      .information-page p {
+        font-size: 14px; } }
+  @media screen and (max-width: 768px) {
+    .information-page {
+      height: auto; }
+      .information-page .container-text {
+        margin-top: 2px !important; }
+      .information-page h5 {
+        font-size: 18px; }
+      .information-page p {
+        font-size: 14px; } }
+
+/*end information-page*/
+/*contact-page*/
+.contact-page {
+  background: url(img/paper-1074131_1920.jpg) center top no-repeat; }
+  .contact-page .form-control {
+    max-height: 500px; }
+
+/*end contact-page*/
